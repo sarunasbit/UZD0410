@@ -46,18 +46,6 @@ header {
         
         }
     
-    .marginBottom {
-        margin-bottom: 22vh;
-    }
-
-    @media (max-width: 576px) {
-        .marginBottom {
-            margin-bottom: 10vh;
-        }
-    }
-
-
-
     .headerInput button {
         background-color: #F84646;
         color: black;
@@ -66,10 +54,6 @@ header {
 }
 
 /* Main 1 */
-
-main .mainArticles img {
-    height: 76px;
-}
 
 main .mainArticles .positionBubble {
     position: relative;
@@ -131,9 +115,6 @@ main .mainArticles .positionBubble .bubbleGreen{
 
 /* Main 2 */
 
-main .mainIntro .mainIntroIcon {
-    height: 27px;
-}
 
 main .mainIntro {
     background-color: #F84646;
@@ -146,8 +127,6 @@ main .mainIntro .size {
 
 main .mainBtn {
     background-color: #F84646;
-    padding-right: 30px;
-    padding-left: 30px;
 }
 
 @media (max-width: 992px) {
@@ -208,6 +187,5 @@ main .companyIcons .icon-container img{
  footer {
     background-color: #F84646;
     color: #E6E6E6;
-    ;
  }
 
