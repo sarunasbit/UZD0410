@@ -149,23 +149,6 @@ main .mainBtn {
     }
 }
 
-
-/* Main 4 */
-
-
-main .companyIcons .icon-container img{
-    max-width: 12vh;
-    
-}
-
-
-main .companyIcons .icon-container img{
-    max-width: 100%;
-    max-height: 100%;
-    object-fit: contain;
-}
-
-
 /* Main 5 */
 
 .main5 .positionBubble {
