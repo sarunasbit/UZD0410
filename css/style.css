@@ -1,0 +1,213 @@
+body {
+    font-family: "Manrope", sans-serif;
+}
+
+
+body {
+
+
+    /* Header Image */
+
+    header {
+    background-image: url(../img/headerImg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    }
+
+    @media (min-width: 810px) {
+        header {
+            background-position: 26% 45%;
+            
+        }
+    }
+
+        @media (max-width: 600px) {
+            header {
+                background-position: 70% 25%;;
+            }
+    }
+
+}
+
+/* Header Nav & h1,p,button */
+
+header {
+    
+    .navBtn {
+    background-color: #F84646;
+    }
+
+    .headerInput {
+        background-color: white;
+        padding: 8px 5px;
+        border-radius: 7px;
+        overflow: none;
+        
+        }
+    
+    .marginBottom {
+        margin-bottom: 22vh;
+    }
+
+    @media (max-width: 576px) {
+        .marginBottom {
+            margin-bottom: 10vh;
+        }
+    }
+
+
+
+    .headerInput button {
+        background-color: #F84646;
+        color: black;
+    }
+
+}
+
+/* Main 1 */
+
+main .mainArticles img {
+    height: 76px;
+}
+
+main .mainArticles .positionBubble {
+    position: relative;
+}
+
+main .mainArticles .positionBubble .bubbleRed{
+    position:absolute;
+    height: 55px;
+    width: 55px;
+    background-color: rgba(248, 70, 70, 0.9);
+    left: 50%;
+    top: -5%;
+    border-radius: 50%;
+}
+
+main .mainArticles .positionBubble .bubbleBlue{
+    position:absolute;
+    height: 55px;
+    width: 55px;
+    background-color: rgba(53, 32, 216, 0.9);
+    left: 48%;
+    top: -5%;
+    border-radius: 50%;
+}
+
+main .mainArticles .positionBubble .bubbleGreen{
+    position:absolute;
+    height: 55px;
+    width: 55px;
+    background-color: rgba(35, 216, 32, 0.9);
+    left: 39%;
+    top: 7%;
+    border-radius: 50%;
+}
+
+@media (max-width: 1080px) {
+    main .mainArticles .positionBubble .bubbleGreen{
+        position:absolute;
+        height: 55px;
+        width: 55px;
+        background-color: rgba(35, 216, 32, 0.9);
+        left: 32%;
+        top: 7%;
+        border-radius: 50%;
+    }
+}
+
+@media (max-width: 580px) {
+    main .mainArticles .positionBubble .bubbleGreen{
+        position:absolute;
+        height: 55px;
+        width: 55px;
+        background-color: rgba(35, 216, 32, 0.9);
+        left: 35%;
+        top: 7%;
+        border-radius: 50%;
+    }
+}
+
+/* Main 2 */
+
+main .mainIntro .mainIntroIcon {
+    height: 27px;
+}
+
+main .mainIntro {
+    background-color: #F84646;
+    color: white;
+}
+
+main .mainIntro .size {
+    font-size: 14px;
+}
+
+main .mainBtn {
+    background-color: #F84646;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+@media (max-width: 992px) {
+    main .mainIntro .rotate-90{
+            transform: rotate(45deg);
+    }
+}
+
+@media (max-width: 768px) {
+    main .mainIntro .rotate-90{
+            transform: rotate(90deg);
+    }
+}
+
+/* Main 3 */
+
+@media (min-width: 992px) {
+    main .mainContent p {
+        line-height: 1.9;
+    }
+}
+
+
+/* Main 4 */
+
+
+main .companyIcons .icon-container img{
+    max-width: 12vh;
+    
+}
+
+
+main .companyIcons .icon-container img{
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+
+/* Main 5 */
+
+.main5 .positionBubble {
+    position: relative;
+}
+
+.main5 .positionBubble .bubbleRed {
+    position:absolute;
+    height: 55px;
+    width: 55px;
+    background-color: rgba(248, 70, 70, 0.9);
+    left: 50%;
+    top: 5%;
+    border-radius: 50%;
+}
+
+/* Footer */
+
+ footer {
+    background-color: #F84646;
+    color: #E6E6E6;
+    ;
+ }
+
