@@ -166,6 +166,15 @@ main .mainBtn {
     }
 }
 
+/* Main 4 */
+
+.iconsMain4 .mainImgIcons {
+    padding: 25px;
+    height: 96px;
+    width: 170px;
+    margin: 10px;
+}
+
 /* Main 5 */
 
 .main5 .positionBubble {
