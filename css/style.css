@@ -27,20 +27,16 @@ body {
             }
     }
 
-    @media (min-width: 542px) {
-        header {
-            max-height: 601px;
-        }
-    }
+   
     @media (min-width: 1024px) {
         header {
-            max-height: 647px;
+            min-height: 647px;
         }
     }
 
     @media (min-width: 1440px) {
         header {
-            height: 754px;
+            min-height: 754px;
             background-position: left;
         }
     }
