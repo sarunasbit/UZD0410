@@ -3,6 +3,7 @@ body {
 }
 
 
+
 body {
 
 
@@ -156,6 +157,13 @@ main .mainBtn {
 
 /* Main 3 */
 
+@media (min-width: 1210px) {
+    .mainContent p {
+        max-width: 80%;
+        font-size: 1.1rem;
+    }
+}
+
 @media (min-width: 992px) {
     main .mainContent p {
         line-height: 1.9;
@@ -187,7 +195,7 @@ main .mainBtn {
     border-radius: 50%;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 650px) {
     main .mainContent .mainBtnWidth {
         width: 100%;
     }
