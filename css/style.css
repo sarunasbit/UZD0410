@@ -40,7 +40,8 @@ body {
 
     @media (min-width: 1440px) {
         header {
-            max-height: 754px;
+            height: 754px;
+            background-position: left;
         }
     }
 
