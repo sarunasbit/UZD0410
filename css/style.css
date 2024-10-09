@@ -4,6 +4,10 @@ body {
 
 
 
+
+
+
+
 body {
 
 
@@ -172,20 +176,20 @@ main .mainBtn {
 
 /* Main 4 */
 
-.iconsMain4 .mainImgIcons {
+.iconsMainFour .mainImgIcons {
     padding: 25px;
-    height: 96px;
+    height: 98px;
     width: 170px;
-    margin: 10px;
+    margin-top: 15px;
 }
 
 /* Main 5 */
 
-.main5 .positionBubble {
+.mainFive .positionBubble {
     position: relative;
 }
 
-.main5 .positionBubble .bubbleRed {
+.mainFive .positionBubble .bubbleRed {
     position:absolute;
     height: 55px;
     width: 55px;
@@ -207,4 +211,208 @@ main .mainBtn {
     background-color: #F84646;
     color: #E6E6E6;
  }
+
+
+
+ /* Fonts */
+/* Header */
+
+ Header nav ul li,
+ header nav nav .Btn {
+    font-size: 0.875em;
+    font-weight: 700;
+ }
+
+header h1 {
+    font-size: 4em;
+    font-weight: 800;
+}
+
+header p {
+    font-size: 1.25em;
+    font-weight: 400;
+}
+
+@media(max-width: 1024px) {
+    header h1 {
+        font-size: 3.5em;
+    }
+
+    header p {
+        font-size: 1em;
+    }
+}
+
+@media(max-width: 480px) {
+    header h1 {
+        font-size:  2.625em;
+    }
+
+    header p {
+        font-size: 0.75em;
+    }
+}
+
+/* main 1 */
+
+
+main .mainArticles .fontsMainOne h2 {
+    font-size: 2.25em;
+    font-weight: 800;
+}
+
+main .mainArticles .fontsMainOne p {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+@media(max-width: 480px) {
+    main .mainArticles .fontsMainOne h2 {
+        font-size: 1.5em;
+    }
+    
+    main .mainArticles .fontsMainOne p {
+        font-size: 0.75em;
+    }
+}
+
+main .mainArticles .mainArticlesTopics h3{
+    font-weight: 800;
+    font-size: 1.5;
+}
+
+main .mainArticles .mainArticlesTopics p {
+    font-size: 1.125em;
+    font-weight: 400;
+}
+
+/* main 2 */
+
+
+main .mainIntro .mainIntroTwo h2 {
+    font-size: 3em;
+    font-weight: 800;
+}
+
+main .mainIntro .mainIntroTwo p {
+    font-size: 1.125em;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+main .mainIntro .mainIntroTopics p {
+    font-size: 1.125em;
+    font-weight: 700;
+}
+
+@media(max-width: 1024px) {
+    main .mainIntro .mainIntroTopics p {
+        font-size: 0.875em;
+    }
+}
+
+@media(max-width: 480px) {
+    main .mainIntro .mainIntroTwo h2 {
+        font-size: 2.25em;
+        font-weight: 800;
+    }
+
+    main .mainIntro .mainIntroTopics p {
+        font-size: 1.125em;
+    }
+    
+    main .mainIntro .mainIntroTwo p {
+        font-size: 0.875em;
+        font-weight: 400;
+        color: #ffffff;
+    }
+}
+
+/* main 3 */
+
+main .mainContent h2{
+    font-size: 4em;
+    font-weight: 700;
+}
+
+main .mainContent p{
+    font-size: 1em;
+    font-weight: 400;
+    color:#808080;
+    ;
+}
+
+@media (max-width: 1024px) {
+    main .mainContent h2{
+        font-size: 3.625em;
+        font-weight: 700;
+    }
+    
+    main .mainContent p{
+        font-size: 0.875;
+        ;
+    }
+}
+
+@media (max-width: 480px) {
+    main .mainContent h2{
+        font-size: 2.25em;
+    }
+
+}
+
+/* main 4 */
+
+main .iconsMainFour h2{
+    font-size: 3em;
+    font-weight: 800;
+}
+
+main .iconsMainFour p{
+    font-size: 1.125em;
+    font-weight: 500;
+}
+
+@media(max-width: 480px) {
+    main .iconsMainFour h2{
+        font-size: 2.25em;
+        font-weight: 700;
+    }
+    
+    main .iconsMainFour p{
+        font-size: 0.875em;
+        font-weight: 500;
+    }
+}
+
+/* main 5 */
+
+main .mainFive h2{
+    font-size: 3em;
+    font-weight: 800;
+}
+
+main .mainFive p{
+    font-size: 1.125em;
+    font-weight: 500;
+}
+
+@media(max-width: 480px) {
+    main .mainFive h3{
+        font-size: 2.25em;
+        font-weight: 700;
+    }
+    
+    main .mainFive p{
+        font-size: 0.875em;
+        font-weight: 500;
+    }
+}
+
+/* footer */
+
+footer ul li{
+font-size: 1em;
+font-weight: 400;
+}
 
